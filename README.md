@@ -13,6 +13,7 @@ También, además de conocer que hay librerias especiales para lograr los difere
 ## 1. Ejecución
 ### Solo es necesaria la ejecución del `main.py`
 * El programa no utiliza librerias externas. Por lo que no es necesaria la creación de un entorno virtual.  
+* El programa puede ser ejecutado en cualquier entorno en donde se ejecute correctamente Python.
 
 ![Ejecucion del programa en terminal](/doc/images/Ejecucion_en_terminal.png)
 
