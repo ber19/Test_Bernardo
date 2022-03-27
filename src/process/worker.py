@@ -40,7 +40,8 @@ class Worker(Toplevel, Thread):
                         self.counter_var.set(self.count)
                         self.counter_par_var.set("Worker No.{}   ->   {}".format(self.w_number, self.count))
                 self.ended = True
-                print([worker.ended for worker in varg.workers.values()])
+                time.sleep(.001)
+                # print[worker.ended for worker in varg.workers.values()]
                 if all([worker.ended for worker in varg.workers.values()]):  
                     f.rerun_workers()
         except RuntimeError:
